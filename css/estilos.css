@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap");
+.Margenesh2, .Th2 {
+  margin-left: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.Th1 {
+  background-color: #FFEC5C;
+  font-style: normal;
+  font-size: 2em;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 3rem; }
+
+.Th2 {
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 600; }
+
+.Th2p {
+  color: black;
+  font-size: 2rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600; }
+
+.Th2-bis {
+  color: black;
+  background-color: #E2E8E4;
+  font-size: 2rem;
+  font-style: normal;
+  text-align: center;
+  font-weight: 600; }
+
+.Th3 {
+  color: black;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px; }
+
+.Th3p {
+  color: black;
+  font-size: 2rem;
+  font-style: normal;
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px; }
+
+.Th4 {
+  color: black;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  margin: 5px;
+  text-align: right; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.estilo-cuerpo {
+  background-color: #ffffff;
+  font-family: 'Barlow', sans-serif; }
+
+footer {
+  background-color: #FF5A33;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.textoDestacado {
+  color: black;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  margin: 10px 5px 5px 5px; }
+
+p {
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: auto;
+  padding: 10px;
+  line-height: 2rem; }
+
+.img-combos {
+  display: flex;
+  justify-items: center;
+  align-items: center; }

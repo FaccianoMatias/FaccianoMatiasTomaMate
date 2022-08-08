@@ -1,0 +1,134 @@
+//imports
+@import "_fonts";
+@import "_fondos";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap');
+
+@mixin texto ($style, $size, $color) {
+    font-style: $style;
+    font-size: $size;
+    color: $color;
+}
+
+.Margenesh2 {
+    margin-left: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+$paletaColor: (
+    'uno': #000000,
+    'dos': #FFEC5C,
+);
+
+.Th1 {
+    background-color: map-get($map: $paletaColor , $key:'dos');
+    @include texto(normal, 2em, black)
+    font-weight: 600; 
+    text-align: center;
+    margin-top: $MargenSUP1;
+    margin-bottom: $MargenBOT1;
+    line-height: $interlineado1;
+}
+
+.Th2 {
+    font-size: $Letra1;
+    font-style: normal;
+    font-weight: 600;
+    @extend .Margenesh2;                
+}
+
+.Th2p {
+    color: $colorh1;
+    font-size: $Letra2;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Th2-bis {
+    color: $colorh1;
+    background-color: $fondoh2bis;
+    font-size: $Letra2;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+}
+
+.Th3 {
+    color: $colorh1;
+    font-size: $Letra2;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Th3p {
+    color: $colorh1;
+    font-size: $Letra2;
+    font-style: normal;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.Th4 {
+    color: $colorh1;
+    font-size: $Letra1;
+    font-style: normal;
+    font-weight: 500;
+    margin: 5px;
+    text-align: right; }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.estilo-cuerpo {
+    background-color: $FondoTotal;
+    font-family: 'Barlow', sans-serif;
+}
+
+footer { 
+    background-color: $fondoT ;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textoDestacado {
+    color: $colorh1;
+    font-size: $Letra1;
+    font-style: italic;
+    font-weight: 400;
+    margin: 10px 5px 5px 5px;
+}
+
+p {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: auto;
+    padding: 10px;
+    line-height: 2rem;
+}
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+);
+
+.img-combos {
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
