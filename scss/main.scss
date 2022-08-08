@@ -23,7 +23,7 @@ $paletaColor: (
 
 .Th1 {
     background-color: map-get($map: $paletaColor , $key:'dos');
-    @include texto(normal, 2em, black)
+    @include texto (normal, 2em, black);
     font-weight: 600; 
     text-align: center;
     margin-top: $MargenSUP1;
@@ -126,9 +126,10 @@ $container-max-widths: (
     xxl: 1320px
 );
 
-.img-combos {
+.container {
+    margin: 2px;
+}
 
-    display: flex;
-    justify-items: center;
-    align-items: center;
+img {
+    margin: 2px ;
 }

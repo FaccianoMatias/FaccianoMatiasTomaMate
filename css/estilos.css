@@ -93,7 +93,8 @@ p {
   padding: 10px;
   line-height: 2rem; }
 
-.img-combos {
-  display: flex;
-  justify-items: center;
-  align-items: center; }
+.container {
+  margin: 2px; }
+
+img {
+  margin: 2px; }
